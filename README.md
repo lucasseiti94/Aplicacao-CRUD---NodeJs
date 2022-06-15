@@ -1,5 +1,5 @@
 # NodeJs
-Aplicaç~]ao CRUD em Node
+Aplicação CRUD em Node
 
 ## Rota /projects - método GET
 Acessa todos os projetos do servidor e retorna a lista completa no corpo da resposta
