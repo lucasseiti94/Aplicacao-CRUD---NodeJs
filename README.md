@@ -1,5 +1,5 @@
-# node-js
-Projeto em node-js
+# NodeJs
+Aplicaç~]ao CRUD em Node
 
 ## Rota /projects - método GET
 Acessa todos os projetos do servidor e retorna a lista completa no corpo da resposta
@@ -14,7 +14,7 @@ Criação de id (middleware que utiliza biblioteca uuidv), título do projeto e 
 ![image](https://user-images.githubusercontent.com/98959848/173847318-1e96f085-5fc8-49ce-9038-d6d6eeddc3b1.png)
 ![image](https://user-images.githubusercontent.com/98959848/173847452-c4ec7a45-d1c7-4c75-bffe-00e165464cf7.png)
 
-## rota /projects/:id - método PUT
+## Rota /projects/:id - método PUT
 Atualização dos dados do projeto cadastrado 
 Id enviado através dos parâmetros da requisição (query) e os dados a serem atualizados, no corpo da requisição.
 Dados atualizados serão enviados no corpo da resposta: 
@@ -31,7 +31,7 @@ Caso o id enviado seja válido, porém não encontrado na base, será retornado 
 
 ## Rota /projects/:id - método DELETE
 Deleta projeto cadastrado através do id enviado pela query da requisição
-Como resposta, envia o status 204 sem nenhum dado no corpo da resposta
+Como resposta, envia o status 204 sem nenhum dado no corpo
 ![image](https://user-images.githubusercontent.com/98959848/173851345-40cf72a2-bef8-485d-ad2c-52cba7bbe389.png)
 
 Caso o id não seja encontrado na base, será retornado um erro:
